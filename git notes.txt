@@ -1,0 +1,13 @@
+
+// Data push
+git init
+git add .
+git status // opll
+git commit -m "first commit"
+git push origin main
+
+
+
+// git clone
+
+git clone -> git clone https://SHA256:Q84oIGasnHJGqDaYHJdi3cMkCjtihvOm9Uyczp5sl2Q@github.com/Vikashsinghal977/SkillChaze.git

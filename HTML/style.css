@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(210, 216, 221);
+}
+form {
+  max-width: 800px;
+  background-color: rgb(235, 231, 231);
+  margin: auto;
+  padding: 10px;
+  font-size: larger;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(12, 11, 11);
+}
+h1 {
+  text-align: center;
+  margin: 40px;
+}
+form > div {
+  margin: 10px auto;
+  width: 700px;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+select textarea {
+  padding: 6px;
+  width: 80%;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  font-weight: 600;
+}
+input[type="submit"] {
+  width: 120px;
+  padding: 8px;
+  font-size: medium;
+  font-weight: 600;
+  display: block;
+  margin: 20px auto;
+  border: none;
+  background-color: crimson;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: rgba(214, 25, 63, 0.87);
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resposiveness</title>
+    <style>
+      body {
+        background-color: rgb(255, 222, 180);
+      }
+      div {
+        background-color: brown;
+        width: 21vw;
+        height: 21vw;
+        margin: 50px;
+      }
+      @media (max-aspect-ratio: 2/3) {
+        div {
+          background: #9ff; /*cyan */
+        }
+      }
+
+      /* @media all and (max-width: 1000px) {
+        body {
+          background-color: rgb(71, 71, 114);
+        }
+        div {
+          width: 400px;
+          height: 400px;
+          background-color: green;
+        }
+      } */
+    </style>
+  </head>
+  <body>
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+  </body>
+</html>

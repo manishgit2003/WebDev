@@ -1,0 +1,84 @@
+/* h1 {
+  color: rgb(0, 255, 0);
+  text-shadow: 0 2px 4px black;
+} */
+/* h1 {
+  color: blueviolet;
+}
+
+p {
+  background-color: brown;
+  color: white;
+} */
+
+/* * {
+  color: aqua;
+}
+body {
+  background-color: black;
+} */
+/* body {
+  background-color: black;
+}
+a[href="instagram"] {
+  color: aqua;
+} */
+
+/* div,
+h1,
+span,
+em {
+  color: crimson;
+} */
+
+/* span > p {
+  background-color: darkcyan;
+} */
+
+/* h1,
+em,
+div,
+.custom {
+  color: darkgreen;
+} */
+
+/* li {
+  list-style-type: disc;
+  color: red;
+} */
+
+/* descendant combinator */
+
+/* li li {
+  color: rgb(206, 24, 24);
+} */
+
+/* li > li {
+  color: rgb(206, 24, 24);
+} */
+
+/* adjacent sibiling p tag */
+
+/* h1 + p {
+  color: brown;
+}
+ul + li {
+  color: darkblue;
+} */
+
+/* general sibiling selector */
+
+/* h1 ~ p {
+  color: red;
+} */
+body {
+  background-color: aqua;
+}
+#content {
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  margin: 20px 10px 30px 10px;
+  padding: 20px;
+  background-color: white;
+}
